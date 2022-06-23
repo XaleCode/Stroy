@@ -1,0 +1,7 @@
+local p = game:GetService("Players")
+
+p.PlayerAdded:Connect(function(player)
+  if player.Name == "Stroyosh" then
+      player:Kick("get noob")
+  end
+end)
